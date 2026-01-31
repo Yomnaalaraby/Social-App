@@ -1,4 +1,4 @@
-import { useContext, useState, useEffect } from 'react';
+import { useContext, useState } from 'react';
 import { AuthContext } from '../Context/AuthContext';
 import UserPhoto from '../assets/images/avatar.png';
 import SinglePost from './SinglePost';

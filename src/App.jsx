@@ -1,4 +1,3 @@
-import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MainLayout from './Layouts/MainLayout'
 import Feedpage from './Pages/Feedpage'

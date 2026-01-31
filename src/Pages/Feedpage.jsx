@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import SinglePost from './SinglePost';
 import { AuthContext } from '../Context/AuthContext';
 import axios from 'axios';
