@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { AuthContext } from '../Context/AuthContext'
 import axios from 'axios'
 import SinglePost from './SinglePost'
-import PostCardSkeleton from '../Components/Skeleton/postCardSkeleton'
+import PostCardSkeleton from '../Components/Skeleton/PostCardSkeleton'
 
 export default function PostDetails() {
     const { id } = useParams()
