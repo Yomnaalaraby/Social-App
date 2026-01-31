@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import SinglePost from './SinglePost';
 import { AuthContext } from '../Context/AuthContext';
 import axios from 'axios';
-import PostCardSkeleton from '../Components/Skeleton/postCardSkeleton';
+import PostCardSkeleton from '../Components/Skeleton/PostCardSkeleton';
 import PostUpload from '../Components/PostUpload';
 import { useQuery } from '@tanstack/react-query';
 
